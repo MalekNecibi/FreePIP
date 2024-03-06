@@ -93,7 +93,7 @@ static UIView *getContentView(SBPIPContainerViewController *self) {
     view.layer.borderWidth = 1.5;
 
     if(!locked) view.layer.borderColor = [UIColor clearColor].CGColor;
-    else view.layer.borderColor = [UIColor redColor].CGColor;
+    else view.layer.borderColor = [UIColor darkGrayColor].CGColor;
 }
 %end
 
